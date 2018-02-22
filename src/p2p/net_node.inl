@@ -464,7 +464,7 @@ namespace nodetool
         if (result.size())
         {
           for (const auto& addr_string : result)
-            full_addrs.insert(addr_string + ":19733");
+            full_addrs.insert(addr_string + ":44000");
         }
         ++i;
       }
@@ -472,12 +472,10 @@ namespace nodetool
       if (!full_addrs.size())
       {
         LOG_PRINT_L0("DNS seed node lookup either timed out or failed, falling back to defaults");
-        full_addrs.insert("158.69.242.193:19733");
-        full_addrs.insert("91.121.81.92:19733");
-        full_addrs.insert("144.217.164.165:19733");
-        full_addrs.insert("168.235.77.153:19733");
-        full_addrs.insert("185.34.136.245:19733");
-        full_addrs.insert("107.191.61.96:19733");
+        full_addrs.insert("159.65.129.62:44000");
+        full_addrs.insert("46.101.97.55:44000");
+        full_addrs.insert("165.227.232.189:44000");
+        full_addrs.insert("159.203.27.28:44000");
       }
     }
 
