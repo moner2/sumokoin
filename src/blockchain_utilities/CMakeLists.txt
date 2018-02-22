@@ -87,7 +87,7 @@ add_dependencies(blockchain_import
 	version)
 set_property(TARGET blockchain_import
 	PROPERTY
-	OUTPUT_NAME "sumo-blockchain-import")
+	OUTPUT_NAME "kryptonium-blockchain-import")
 
 sumokoin_add_executable(blockchain_export
   ${blockchain_export_sources}
@@ -108,7 +108,7 @@ add_dependencies(blockchain_export
 	version)
 set_property(TARGET blockchain_export
 	PROPERTY
-	OUTPUT_NAME "sumo-blockchain-export")
+	OUTPUT_NAME "kryptonium-blockchain-export")
 
 sumokoin_add_executable(cn_deserialize
   ${cn_deserialize_sources}
