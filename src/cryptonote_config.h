@@ -159,7 +159,7 @@ namespace config
   boost::uuids::uuid const NETWORK_ID = { {
       0x8d, 0x06, 0x7c, 0x27, 0xdf, 0xce, 0xfc, 0xa8, 0x04, 0x4a, 0x24, 0x42, 0x44, 0x60, 0xd4, 0xf3
     } }; // Bytecoin Network ID
-  std::string const GENESIS_TX = "023c01ff0001e9fe91b5ba02029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101bb7563a56166e451f727733880730c8b19eb1d03c41f7db0d167e885a26c1ca8";
+  std::string const GENESIS_TX = "023c01ff0001e9fe91b5ba02029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd088071210188b8cecdb42eeb2315de62f4fa49d33b08e9d45d8e1817e5518c49e9bdf03fe0";
   uint32_t const GENESIS_NONCE = 10000;
 
   namespace testnet
