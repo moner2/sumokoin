@@ -159,7 +159,7 @@ namespace config
   boost::uuids::uuid const NETWORK_ID = { {
       0x8d, 0x06, 0x7c, 0x27, 0xdf, 0xce, 0xfc, 0xa8, 0x04, 0x4a, 0x24, 0x42, 0x44, 0x60, 0xd4, 0xf3
     } }; // Bytecoin Network ID
-  std::string const GENESIS_TX = "023c01ff0001e9fe91b5ba02029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd088071210188b8cecdb42eeb2315de62f4fa49d33b08e9d45d8e1817e5518c49e9bdf03fe0";
+  std::string const GENESIS_TX = "023c01ff0001e9fe91b5ba02029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd088071210107ca6beda35f5d02def3ea5aae0d525ae50a26a5c4c538ad530d74a3ace21f23";
   uint32_t const GENESIS_NONCE = 10000;
 
   namespace testnet
@@ -172,7 +172,7 @@ namespace config
     boost::uuids::uuid const NETWORK_ID = { {
         0x04, 0x06, 0xdf, 0xce, 0xfc, 0x7c, 0x27, 0x4a, 0x24, 0xd4, 0xf3, 0x8d, 0x42, 0x44, 0x60, 0xa8
       } }; // Bender's daydream
-    std::string const GENESIS_TX = "";
+    std::string const GENESIS_TX = "013c01ff0001bbbad6adf00d029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101b20e782a04028cf9326ccd66e0d683f50dd1b261f4e81fac4bfa0c73d0601102";
     uint32_t const GENESIS_NONCE = 10001;
   }
 }
