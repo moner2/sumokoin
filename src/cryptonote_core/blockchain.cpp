@@ -83,10 +83,10 @@ static const struct {
   uint8_t threshold;
   time_t time;
 } mainnet_hard_forks[] = {
-  { 1, 1, 0, 1519467750 },
-//   { 2, 2, 0, 1519467750 }
+  { 1, 1, 0, 1519467750 }
+//   { 2, 1, 0, 1519467750 }
 };
-static const uint64_t mainnet_hard_fork_version_1_till = (uint64_t)-100000;
+static const uint64_t mainnet_hard_fork_version_1_till = (uint64_t)-1;
 
 static const struct {
   uint8_t version;
