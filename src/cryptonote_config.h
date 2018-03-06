@@ -55,7 +55,7 @@
 
 // MONEY_SUPPLY - total number coins to be generated
 #define MONEY_SUPPLY                                    ((uint64_t)177000000000000000)
-#define EMISSION_SPEED_FACTOR                           19
+#define EMISSION_SPEED_FACTOR                           21
 #define FINAL_SUBSIDY                                   ((uint64_t)4000000000) // 4 * pow(10, 9)
 #define GENESIS_BLOCK_REWARD                            ((uint64_t)84400177001) // ~0000000001% dev premine
 
