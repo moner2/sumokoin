@@ -472,8 +472,8 @@ namespace nodetool
       if (!full_addrs.size())
       {
         LOG_PRINT_L0("DNS seed node lookup either timed out or failed, falling back to defaults");
-        full_addrs.insert("159.65.224.129:55000");
-        full_addrs.insert("159.65.224.145:55000");
+        full_addrs.insert("165.227.189.226:55000");
+        full_addrs.insert("46.101.40.29:55000");
       }
     }
 
